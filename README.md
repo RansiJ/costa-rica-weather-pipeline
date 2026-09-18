@@ -149,7 +149,7 @@ tests/                synthetic behavioral tests
 
 ## License
 
-Original code, documentation, tests, synthetic data, and demo figures are
+The code, documentation, tests, synthetic data, and demo figures are
 released under the [MIT License](LICENSE). Recovered institutional material is
 excluded from version control and is not relicensed; see
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

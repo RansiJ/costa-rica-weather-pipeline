@@ -1,6 +1,6 @@
 # Data and third-party material
 
-The MIT License in this repository applies to the original pipeline code,
+The MIT License in this repository applies to the pipeline code,
 documentation, tests, synthetic sample data, and generated demonstration
 figures.
 
