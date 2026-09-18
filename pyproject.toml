@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "costa-rica-weather-pipeline"
+version = "0.1.0"
+description = "Instrument-aware quality control and harmonization for recovered meteorological observations."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.9,<4",
+  "numpy>=2.0,<3",
+  "openpyxl>=3.1,<4",
+  "pandas>=2.2,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ipykernel>=6.29,<8",
+  "jupyterlab>=4.2,<5",
+  "nbclient>=0.10,<1",
+  "nbformat>=5.10,<6",
+  "pytest>=8,<9",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q -p no:cacheprovider --basetemp=tmp/pytest"
+pythonpath = ["src"]
+testpaths = ["tests"]

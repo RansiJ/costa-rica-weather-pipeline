@@ -1,0 +1,22 @@
+# Recovered institutional material and legacy working files are private by default.
+/CIGEFI-*/
+/CIGEFI-*.zip
+/notebooks/source/
+/legacy/
+
+# Local data products and scratch audit artifacts.
+/data/raw/
+/data/interim/
+/data/processed/
+/tmp/
+/figures/local/
+
+# Python and notebook tooling.
+/.venv/
+/.uv-cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
